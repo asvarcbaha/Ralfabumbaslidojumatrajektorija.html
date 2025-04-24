@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Ralfa bumbas lidojuma trajektorija</title>
+    <style>
+        details { margin-bottom: 1em; border: 1px solid #007BFF; border-radius: 5px; padding: 10px; }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        summary:hover {
+            background-color: #0056b3;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Ralfa bumbas lidojuma trajektorija</h1>
+
+<details>
+    <summary>1) Cik tālu no Ralfa nokrīt bumba?</summary>
+    <p>Bumba nokrīt tad, kad augstums <code>h = 0</code>. Atrisinām vienādojumu:</p>
+    <p><code>h = -0.025x² + x = 0</code></p>
+    <p>Risinājumi: <code>x = 0</code> un <code>x = 40</code></p>
+    <p><strong>Atbilde:</strong> Bumba nokrīt <strong>40 metru</strong> attālumā no Ralfa.</p>
+</details>
+
+<details>
+    <summary>2) Kādu maksimālo augstumu sasniedz bumba un cik tālu no Ralfa tā atrodas šajā punktā?</summary>
+    <p>Maksimālais augstums ir paraboles virsotne. To atrodam ar formulu <code>x = -b / (2a)</code>.</p>
+    <p><code>a = -0.025, b = 1 → x = -1 / (2 × -0.025) = 20</code></p>
+    <p>Attiecīgais augstums: <code>h(20) = -0.025×20² + 20 = 10</code></p>
+    <p><strong>Atbilde:</strong> Maksimālais augstums ir <strong>10 metri</strong>, tas tiek sasniegts <strong>20 metru</strong> attālumā no Ralfa.</p>
+</details>
+
+<details>
+    <summary>3) Cik tālu no Ralfa bumba atrodas 3,6 m augstumā?</summary>
+    <p>Risinām vienādojumu: <code>-0.025x² + x = 3.6</code></p>
+    <p>Risinājumi: <code>x = 4</code> un <code>x = 36</code></p>
+    <p><strong>Atbilde:</strong> Bumba atrodas 3.6 m augstumā <strong>4 metru</strong> un <strong>36 metru</strong> attālumā no Ralfa.</p>
+</details>
+
+<details>
+    <summary>4) Cik augstu atrodas bumba 12 m attālumā no Ralfa?</summary>
+    <p>Vienkārši ievietojam <code>x = 12</code> vienādojumā:</p>
+    <p><code>h(12) = -0.025×12² + 12 = 8.4</code></p>
+    <p><strong>Atbilde:</strong> Bumba atrodas <strong>8.4 metru</strong> augstumā, kad tā ir 12 m no Ralfa.</p>
+</details>
+
+</body>
+</html>
